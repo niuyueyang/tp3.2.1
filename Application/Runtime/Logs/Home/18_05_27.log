@@ -1,0 +1,32 @@
+[ 2018-05-27T19:40:27+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033715s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.2099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.084636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.084683s ]
+
+[ 2018-05-27T21:59:45+08:00 ] ::1 /think/index.php/home/user/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009437s ]
+

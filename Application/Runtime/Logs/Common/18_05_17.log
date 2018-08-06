@@ -1,0 +1,6 @@
+[ 2018-05-17T20:29:34+08:00 ] ::1 /think/Public/Js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:Public
+

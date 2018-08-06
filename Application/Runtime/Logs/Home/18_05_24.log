@@ -1,0 +1,12 @@
+[ 2018-05-24T13:50:18+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029138s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.1975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018682s ]
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--server变量：{$Think.server.request_uri}<br />
+		get变量:{$Think.get.name}<br />
+		cookie变量:{$Think.cookie.name}<br />
+		输出配置变量:{$Think.config.name}-->
+		<!--参数大于一个函数:{$now|date='Y-m-d H:i:s',###}<br />
+		参数等于一个函数：{$name|strtoupper}<br />
+		函数嵌套：{$name|md5|substr=###,0,16}-->
+		{$userobj->age*2}
+	</body>
+</html>

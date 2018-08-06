@@ -1,0 +1,931 @@
+[ 2018-05-12T09:14:31+08:00 ] ::1 /think/index.php/home/test/buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2018-05-12T09:14:34+08:00 ] ::1 /think/index.php/home/test/index/id/1/name/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+
+[ 2018-05-12T09:14:51+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.2275s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\phpStudy\WWW\think\Application\Home\Controller\UserController.class.php 第 48 行.
+SQL: SELECT * FROM `c5_user` ORDER BY `id` desc LIMIT 5   [ RunTime:0.0007s ]
+
+[ 2018-05-12T09:15:01+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0794s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\phpStudy\WWW\think\Application\Home\Controller\UserController.class.php 第 48 行.
+SQL: SELECT * FROM `c5_user` ORDER BY `id` desc LIMIT 5   [ RunTime:0.0011s ]
+
+[ 2018-05-12T09:16:10+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0741s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2018-05-12T09:17:21+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0867s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2018-05-12T09:17:33+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `c5_user` LIMIT 10,10   [ RunTime:0.0008s ]
+
+[ 2018-05-12T09:20:54+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: syntax error, unexpected 'return' (T_RETURN)
+
+[ 2018-05-12T09:21:08+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2018-05-12T09:21:23+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `c5_user` WHERE `id` = 0  [ RunTime:0.0011s ]
+ERR: Call to a member function group() on array
+
+[ 2018-05-12T09:28:02+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0915s ]
+SQL: SELECT * FROM `c5_user` WHERE `id` = 0  [ RunTime:0.0008s ]
+ERR: Call to a member function group() on array
+
+[ 2018-05-12T09:33:34+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-05-12T09:34:58+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0665s ]
+SQL: SELECT count(id) AS `id`,`username`,`password` FROM `c5_user` GROUP BY userid  [ RunTime:0.0472s ]
+
+[ 2018-05-12T09:35:49+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0785s ]
+SQL: SELECT count(userid) AS `userid`,`username`,`password` FROM `c5_user` GROUP BY userid  [ RunTime:0.0792s ]
+
+[ 2018-05-12T09:36:21+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0747s ]
+SQL: SELECT `username`,`password` FROM `c5_user` GROUP BY userid  [ RunTime:0.0724s ]
+
+[ 2018-05-12T09:37:00+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` GROUP BY userid LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-05-12T09:37:40+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0789s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\think\ThinkPHP\Library\Think\Db\Driver.class.php 第 705 行.
+ERR: 1054:Unknown column 'Array' in 'group statement'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `c5_user` GROUP BY Array LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'group statement'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `c5_user` GROUP BY Array LIMIT 1  
+
+[ 2018-05-12T09:39:46+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0817s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\think\ThinkPHP\Library\Think\Db\Driver.class.php 第 705 行.
+ERR: 1054:Unknown column 'Array' in 'group statement'
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` GROUP BY Array 
+ERR: 1054:Unknown column 'Array' in 'group statement'
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` GROUP BY Array 
+
+[ 2018-05-12T09:40:07+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0756s ]
+SQL: SELECT `username`,`password` FROM `c5_user` GROUP BY userid  [ RunTime:0.0688s ]
+
+[ 2018-05-12T09:40:18+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` GROUP BY userid LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2018-05-12T09:40:53+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0731s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` WHERE `userid` = 1 GROUP BY userid LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-05-12T09:44:18+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0617s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\think\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY userid LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `c5_user` WHERE (  ) GROUP BY userid LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY userid LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `c5_user` WHERE (  ) GROUP BY userid LIMIT 1  
+
+[ 2018-05-12T09:47:47+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0837s ]
+SQL: SELECT `username`,`password` FROM `c5_user` GROUP BY userid HAVING userid>=0  [ RunTime:0.0227s ]
+
+[ 2018-05-12T09:49:50+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0752s ]
+ERR: 1054:Unknown column 'userid' in 'having clause'
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` HAVING userid>=0 
+ERR: 1054:Unknown column 'userid' in 'having clause'
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` HAVING userid>=0 
+
+[ 2018-05-12T09:50:03+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0845s ]
+SQL: SELECT `username`,password,userid FROM `c5_user` HAVING userid>=0  [ RunTime:0.0011s ]
+
+[ 2018-05-12T09:54:14+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0887s ]
+ERR: 1054:Unknown column 'id' in 'having clause'
+ [ SQL语句 ] : SELECT `username`,password,userid FROM `c5_user` HAVING userid>=0 and id=1 
+ERR: 1054:Unknown column 'id' in 'having clause'
+ [ SQL语句 ] : SELECT `username`,password,userid FROM `c5_user` HAVING userid>=0 and id=1 
+
+[ 2018-05-12T09:54:27+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0772s ]
+SQL: SELECT `username`,password,userid,id FROM `c5_user` HAVING userid>=0 and id=1  [ RunTime:0.0008s ]
+
+[ 2018-05-12T09:54:40+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `c5_user` HAVING userid>=0 and id=1  [ RunTime:0.0008s ]
+
+[ 2018-05-12T09:54:59+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0740s ]
+SQL: SELECT `username`,`password` FROM `c5_user` GROUP BY userid HAVING userid>=0  [ RunTime:0.0760s ]
+
+[ 2018-05-12T10:01:42+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0409s ]
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` UNION select name from c5_guanlian
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` UNION select name from c5_guanlian
+
+[ 2018-05-12T10:02:20+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0744s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0719s ]
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` UNION select name from c5_guanlian
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `username`,`password` FROM `c5_user` UNION select name from c5_guanlian
+
+[ 2018-05-12T10:02:47+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0766s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0330s ]
+SQL: SELECT `userid` FROM `c5_user` UNION select userid from c5_guanlian [ RunTime:0.0011s ]
+
+[ 2018-05-12T10:03:08+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0799s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0701s ]
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `userid`,`username` FROM `c5_user` UNION select userid from c5_guanlian
+ERR: 1222:The used SELECT statements have a different number of columns
+ [ SQL语句 ] : SELECT `userid`,`username` FROM `c5_user` UNION select userid from c5_guanlian
+
+[ 2018-05-12T10:06:36+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0743s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0482s ]
+SQL: SELECT DISTINCT  `userid` FROM `c5_user`  [ RunTime:0.0012s ]
+
+[ 2018-05-12T10:07:23+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0826s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0672s ]
+SQL: SELECT DISTINCT  `username` FROM `c5_user`  [ RunTime:0.0795s ]
+
+[ 2018-05-12T10:08:17+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0825s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0763s ]
+SQL: SELECT DISTINCT  `username`,`id` FROM `c5_user`  [ RunTime:0.0008s ]
+
+[ 2018-05-12T10:08:38+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0818s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0653s ]
+SQL: SELECT DISTINCT  `username` FROM `c5_user`  [ RunTime:0.0480s ]
+
+[ 2018-05-12T10:57:41+08:00 ] ::1 /think/index.php/home/test/buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+
+[ 2018-05-12T10:57:44+08:00 ] ::1 /think/index.php/home/test/index/id/1/name/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+
+[ 2018-05-12T10:57:48+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.1058s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0418s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:00:02+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0130s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:01:33+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0751s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0639s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:06:37+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0814s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0673s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:06:57+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0831s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0727s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:08:49+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0793s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0667s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:11:21+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0827s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0727s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:13:34+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0159s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:13:50+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0251s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0118s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:15:03+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0656s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0317s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:15:21+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0447s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:15:57+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0753s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `c5_user`  [ RunTime:0.0004s ]
+
+[ 2018-05-12T11:16:07+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0537s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0159s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:17:25+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0336s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:18:43+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0138s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:18:52+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `c5_user`  [ RunTime:0.0005s ]
+
+[ 2018-05-12T11:19:02+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0628s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0204s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:20:40+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `c5_guanlian` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0184s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:21:39+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0493s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:22:25+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0697s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-05-12T11:36:17+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:18+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:18+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:19+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:19+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:19+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:20+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:20+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:36:20+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:11+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:13+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:13+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:13+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:13+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:14+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:14+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-05-12T11:37:51+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+
+[ 2018-05-12T11:37:52+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+
+[ 2018-05-12T11:37:53+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+
+[ 2018-05-12T11:37:53+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+
+[ 2018-05-12T11:37:53+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+
+[ 2018-05-12T11:38:56+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2018-05-12T11:38:58+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2018-05-12T11:39:16+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `c5_user`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c5_information` [ RunTime:0.0176s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='10' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='13' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-12T11:40:41+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `c5_user`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c5_information` [ RunTime:0.0200s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='3' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='5' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='6' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='7' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='8' )  [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='9' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='10' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='11' )  [ RunTime:0.0003s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='12' )  [ RunTime:0.0002s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='13' )  [ RunTime:0.0003s ]
+
+[ 2018-05-12T11:41:04+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `c5_information` [ RunTime:0.0374s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='1' )  [ RunTime:0.0004s ]
+
+[ 2018-05-12T11:44:14+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `c5_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c5_information` [ RunTime:0.0122s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND userid='1' )  [ RunTime:0.0002s ]
+
+[ 2018-05-12T11:44:56+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `c5_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c5_information` [ RunTime:0.0149s ]
+SQL: SELECT `email`,`qq` FROM `c5_information` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+

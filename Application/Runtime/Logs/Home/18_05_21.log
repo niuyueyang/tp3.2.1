@@ -1,0 +1,405 @@
+[ 2018-05-21T09:12:53+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.1031s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT `data`,`datacrc` FROM `` WHERE `cachekey`='lists' AND (`expire` =0 OR `expire`>1526865171) LIMIT 0,1
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT `data`,`datacrc` FROM `` WHERE `cachekey`='lists' AND (`expire` =0 OR `expire`>1526865171) LIMIT 0,1
+
+[ 2018-05-21T09:16:39+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T09:17:33+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T09:18:24+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0763s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,30   [ RunTime:0.0013s ]
+
+[ 2018-05-21T09:18:37+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,30   [ RunTime:0.0007s ]
+
+[ 2018-05-21T09:18:57+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0757s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0011s ]
+
+[ 2018-05-21T09:22:36+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:23:03+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2018-05-21T09:23:27+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0617s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2018-05-21T09:23:58+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:24:59+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+
+[ 2018-05-21T09:25:13+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-05-21T09:25:14+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-05-21T09:25:15+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-05-21T09:25:32+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0832s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:26:39+08:00 ] ::1 /think/index.php/home/user/index?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0779s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:30:21+08:00 ] ::1 /think/index.php/home/user/index?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0832s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025189s ]
+
+[ 2018-05-21T09:30:53+08:00 ] ::1 /think/index.php/home/user/index?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0857s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003237s ]
+
+[ 2018-05-21T09:30:55+08:00 ] ::1 /think/index.php/home/user/index/page/2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c5_user` LIMIT 5,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2018-05-21T09:31:09+08:00 ] ::1 /think/index.php/home/user/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0826s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2018-05-21T09:31:12+08:00 ] ::1 /think/index.php/home/user/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0870s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c5_user` LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002956s ]
+
+[ 2018-05-21T09:31:42+08:00 ] ::1 /think/index.php/home/user/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0819s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:31:46+08:00 ] ::1 /think/index.php/home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2018-05-21T09:31:54+08:00 ] ::1 /think/index.php/home/user/index?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0807s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c5_user` LIMIT 5,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:33:43+08:00 ] ::1 /think/index.php/home/user/index?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 5,5   [ RunTime:0.0011s ]
+
+[ 2018-05-21T09:34:00+08:00 ] ::1 /think/index.php/home/user/index?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 5,5   [ RunTime:0.0012s ]
+
+[ 2018-05-21T09:34:33+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0932s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0014s ]
+
+[ 2018-05-21T09:35:26+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0807s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0010s ]
+
+[ 2018-05-21T09:35:44+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0012s ]
+
+[ 2018-05-21T09:39:28+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2018-05-21T09:39:42+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+
+[ 2018-05-21T09:39:51+08:00 ] ::1 /think/index.php/home/user/index?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0763s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2018-05-21T09:40:20+08:00 ] ::1 /think/index.php/home/user/index?p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c5_user` LIMIT 10,5   [ RunTime:0.0011s ]
+

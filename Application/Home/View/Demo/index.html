@@ -1,0 +1,43 @@
+<layout name="Demo/layout"/>
+	<h2>volist</h2>
+	<ul>
+		<volist name="projects" key="k" id="project">
+			<li>{$k}-{project.name}</li>
+		</volist>
+	</ul>
+	<h2>foreach</h2>
+	<ul>
+		<foreach name="projects" item="project" key="k">
+			<li>{$k}--{$project.name}</li>
+		</foreach>
+	</ul>
+	<h2>for</h2>
+	<ul>
+		<for start="0" end="count($projects)" name="index">
+			<li>{$index}--{$projects[$index]['name']}</li>
+		</for>
+	</ul>
+	<h2>eq</h2>
+	<eq name="age" value="18">
+		18岁
+		<else/>
+		不是18岁
+	</eq>
+	<h2>neq</h2>
+	<neq name="age" value="17">
+		不是17岁
+		<else/>
+		是17岁
+	</neq>
+	<h2>gt</h2>
+	<gt name="age" value="17">
+		大于17岁
+		<else/>
+		不大于17岁的
+	</gt>
+	<h2>egt</h2>
+	<egt name="age" value="18">
+		大于等于于18岁
+		<else/>
+		小于18岁的
+	</egt>
